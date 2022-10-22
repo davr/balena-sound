@@ -66,10 +66,10 @@ services:
       - spotifycache:/var/cache/raspotify
 
   # https://github.com/balenablocks/hostname
-  hostname:
-    build: ./core/hostname
-    restart: no
-    labels:
-      io.balena.features.supervisor-api: 1
-    environment:
-      SET_HOSTNAME: balena
+#  hostname:
+#    build: ./core/hostname
+#    restart: no
+#    labels:
+#      io.balena.features.supervisor-api: 1
+#    environment:
+#      SET_HOSTNAME: balena
